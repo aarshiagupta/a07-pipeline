@@ -1,0 +1,14 @@
+[project]
+name = "a07-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "dvc>=3.67.1",
+    "marimo>=0.25.2",
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.1",
+]
+
+[tool.uv]
+python-preference = "only-managed"
